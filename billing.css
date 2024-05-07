@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.fa-magnifying-glass{
+    position: relative;
+    right: 3rem;
+}
+
+.dn{
+    color: #FF0000;
+}
+
+.tags a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+/* .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{ */
+    /* background-color:  red !important; */
+/* } */
+/* 
+.custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba (0, 255, 0, 0, 0.25);
+}
+
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba (0, 0, 0, 0, 0.25);
+}
+
+.custom-checkbox .custom-control-input:active ~ .custom-control-label::before{
+    background-color: #ce104c;
+} */
+
+
+input[type="checkbox"]:checked + label::before{
+  /* background: red; */
+}
+
+
+#end{
+    display: ;
+
+}
+
+
+.down input{
+    width: 17em;
+    height: 2.7rem;
+    text-shadow: none;
+}
+
+.down button{
+    width: 10em;
+    height: 2.7rem;
+    margin: 1rem;
+    background-color:#FF0000;
+    color: white;
+    box-shadow: none;
+    /* border: red; */
+    border-radius: rem;
+    border:none;
+
+
+}
+
+.move button{
+    width: 10em;
+    height: 2.7rem;
+    color: white;
+    background-color:#FF0000;
+    border:none;   
+}
