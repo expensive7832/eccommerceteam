@@ -1,0 +1,545 @@
+body {
+    max-width: 100vw;
+}
+
+
+
+
+
+/* Navbar section */
+
+.form-control {
+    background-color: #F5F5F5;
+    border: none;
+}
+
+form img {
+    max-width: 1.2rem !important;
+    max-height: 2rem !important;
+}
+
+
+
+form i {
+    color: #858484;
+    position: relative;
+    right: 3.5rem;
+
+}
+
+
+
+
+/* Our story section */
+
+.story-img {
+    height: 30rem;
+    position: absolute;
+    right: 0;
+    margin-top: 2rem;
+}
+
+.story-text {
+    margin-top: 6rem ;
+
+}
+
+.about-text p {
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* product sales section  */
+
+.service-container {
+    margin-top: 15rem;
+
+}
+
+
+div.circle-1 {
+    background: #c9c8c869;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.circle-2 {
+    background: #161616;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+
+
+.card i {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+
+
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    margin: auto;
+    border: none;
+}
+
+.card-1 {
+    height: 12rem;
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 0.1rem solid #d1d1d1;
+
+}
+
+
+.card-1 h2 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: -0.1rem;
+}
+
+.card-1 p {
+    margin-top: -1rem;
+    line-height: 1rem;
+    text-align: center;
+
+}
+
+
+.about-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 0.2rem;
+
+
+
+
+}
+
+.card-1:hover {
+    background-color: #DB4444;
+    color: #fff;
+
+
+}
+
+
+
+
+
+/* Team section */
+
+.team-section {
+    margin-top: 10rem;
+
+}
+
+
+
+.team-section img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+
+
+}
+
+.team-content {
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 0.5rem;
+    position: relative;
+    right: 5rem;
+}
+
+
+.team-content h3 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+
+
+}
+
+.team-content p {
+    font-size: 0.8rem;
+
+}
+
+
+.team-container {
+    overflow: auto;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 5rem;
+
+}
+
+.social-icons a img {
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
+    margin-right: 0.5rem;
+}
+
+
+
+.card-img-top {
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+
+}
+
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+.img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.img-slider .navigation .btn {
+    background-color: #ffffff;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 2.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #1d1f22;
+
+}
+
+
+.img-slider .navigation .btn.active {
+    background-color: #1d1f22;
+    box-shadow: #3f3f3f;
+}
+
+
+
+
+
+
+
+/* Service section */
+
+
+.last-card {
+    margin-top: 5rem;
+}
+
+
+.last-cardcontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.lastcard-1 {
+    height: 12rem;
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 8rem;
+
+
+}
+
+
+.lastcard-1 h2 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: -0.1rem;
+}
+
+.lastcard-1 p {
+    margin-top: -1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+
+
+/* 
+Footer section  */
+
+.footer {
+    width: 100% !important;
+    height: 22rem !important;
+    background-color: #000000;
+}
+
+.footer .card {
+    background: none !important;
+}
+
+
+
+
+.f1 {
+    color: #fff;
+}
+
+.footer-logo {
+    font-size: 1.2rem;
+}
+
+
+.f1 .p1 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.f1 .p2 {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.footer-card {
+    padding-top: 3rem;
+}
+
+.footer-input {
+
+    border: 0.2px solid #7b7b7b;
+    background-color: transparent;
+    color: #fff;
+}
+
+.inner-input {
+    background-color: transparent;
+}
+
+
+.f2 p {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.f2 p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.f2 h6 {
+    color: #fff;
+}
+
+.bi-truck {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.bi-telephone {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.bi-shield-check {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+p.small-text {
+    font-size: 0.6rem;
+    font-weight: 200;
+}
+
+
+.op {
+    display: flex;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer-icon img {
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
+    margin-right: 0.5rem;
+}
+
+.last-cardcontent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding-top: 5rem;
+
+}
+
+
+footer .search {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+footer .search input {
+
+    border: none;
+    background-color: transparent;
+}
+
+.small-text{
+    color: #fff;
+}
+
+
+
+
+
+
+@media(max-width: 767px) {
+
+    .story-text h2{
+        margin-top: -5rem;
+    }
+
+    .service-container {
+        margin-top: 40rem;
+    }
+
+    .top-text {
+        font-size: 0.8rem;
+    }
+
+    select {
+        font-size: 0.8rem !important;
+
+        margin-top: 0.3rem;
+    }
+
+    .footer-icon {
+        margin-left: 1rem;
+    }
+
+    .card-space{
+        margin-top: -8rem;
+   
+    }
+
+
+}
+
+@media(width: 768px){
+    .story-img{
+        margin-right:-2.5rem;
+    }
+
+   .story-text{
+    margin-top: 2rem !important;
+    
+   }
+}
+
+
+
+@media(min-width: 768px) {
+.op img{
+    width: 4rem;
+    height: 4rem;
+}
+.footer-icon{
+    margin-right: 5rem;
+}
+
+}
+
+
+
+@media(max-width: 540px){
+
+    .btn-top{
+margin-top: 0.8rem;
+    }
+}
