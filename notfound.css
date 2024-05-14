@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    background-color:white;
+}
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+} */
+
+.found{
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.not{
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+
+.myfour{
+    font-size: 100px;
+}
+
